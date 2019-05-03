@@ -1,0 +1,198 @@
+:root {
+  --bg-color: #333;
+  --txt-color: #e3e3e3;
+  --muted-txt-color: #dadada;
+  --ids-bg-color: #444;
+  --light-bg-color: #3A3A3A;
+  --bright-orange: #A6EDFB;
+  --lighter-bg-color: #444;
+}
+
+body {
+  background: var(--bg-color) !important;
+  color: var(--txt-color) !important;
+}
+
+#header-holder {
+  background: var(--bg-color) !important;
+  border-bottom: 2px solid var(--light-bg-color) !important;
+}
+
+.header-container .header-logo {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.rtd-search-form, .pytorch-left-menu {
+  color: var(--txt-color) !important;
+}
+.pytorch-left-menu-search input[type=text] {
+  background-color: var(--light-bg-color) !important;
+  color: var(--txt-color) !important;
+  border: 1px #777 solid !important;
+  border-radius: .4em !important;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+article.pytorch-article .section :not(dt)>code{
+  border: 1px solid #777 !important;
+  border-radius: 3px;
+  background: var(--ids-bg-color) !important;
+}
+
+.pytorch-page-level-bar, .pytorch-content-wrap {
+  background: var(--bg-color) !important;
+}
+
+.pytorch-page-level-bar {
+  border-bottom: 2px solid var(--light-bg-color) !important;
+}
+
+article.pytorch-article p, article.pytorch-article ul li, article.pytorch-article ol li, article.pytorch-article dl dt, article.pytorch-article dl dd, article.pytorch-article blockquote {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article .math {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article .function table tbody tr td.field-body, article.pytorch-article .class table tbody tr td.field-body, article.pytorch-article .attribute table tbody tr td.field-body {
+  color: var(--txt-color) !important;
+}
+
+.tutorials-header .main-menu ul li a {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article table th {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article h2, article.pytorch-article h3, article.pytorch-article h4, article.pytorch-article h5, article.pytorch-article h6 {
+  color: var(--txt-color) !important;
+}
+
+.pytorch-left-menu p.caption {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article .wy-table-responsive table tbody .row-odd{
+  background: var(--light-bg-color) !important;
+}
+
+article.pytorch-article .function table tbody tr th.field-name, article.pytorch-article .class table tbody tr th.field-name, article.pytorch-article .attribute table tbody tr th.field-name {
+  color: var(--txt-color) !important;
+}
+
+article.pytorch-article .function dt,
+article.pytorch-article .class dt,
+article.pytorch-article .attribute dt,
+article.pytorch-article .class .attribute dt {
+  background: var(--ids-bg-color) !important;
+}
+
+span.pre, pre {
+  color: var(--muted-txt-color) !important;
+  background: var(--ids-bg-color) !important;
+}
+
+article.pytorch-article .wy-table-responsive table tbody td .pre {
+    background: var(--ids-bg-color) !important;
+    outline: 1px solid #555 !important;
+    color: #ee4c2c;
+    font-size: 87.5%;
+}
+
+article.pytorch-article .function code, article.pytorch-article .class code, article.pytorch-article .attribute code, article.pytorch-article .class .attribute code {
+    color: var(--txt-color) !important;
+    border-top: solid 2px var(--ids-bg-color) !important;
+    background-color: var(--ids-bg-color) !important;
+    border-bottom: solid 2px var(--ids-bg-color) !important;
+}
+
+article.pytorch-article .note, article.pytorch-article .warning, article.pytorch-article .tip, article.pytorch-article .hint, article.pytorch-article .important, article.pytorch-article .caution, article.pytorch-article .danger, article.pytorch-article .attention, article.pytorch-article .error {
+    background: var(--light-bg-color) !important;
+}
+
+article.pytorch-article .warning .admonition-title {
+  background: #af3424 !important;
+}
+
+article.pytorch-article .note .admonition-title {
+  background: #33a6cc !important;
+}
+
+article.pytorch-article .wy-table-responsive table tbody td {
+    color: var(--muted-txt-color) !important;
+}
+
+.highlight .gp {
+  color: #aaa !important;
+}
+
+.highlight .c1 {
+  color: #898989 !important;
+}
+
+.highlight .o, .highlight .kn, .highlight .k, .highlight .kc, .highlight .ow {
+  color: white !important;
+}
+
+.highlight .nn {
+  color: #BFBFBF !important;
+}
+
+.highlight .bp {
+  color: #C3C3C3 !important;
+}
+
+.highlight .s1 {
+  color: #e85c7f !important;
+}
+
+.highlight .nc {
+  color: #A2AAC4 !important;
+}
+
+.highlight .nf {
+  color: #E48989 !important;
+}
+
+.highlight .nb {
+  color: #60B3CF !important;
+}
+
+.highlight .mi, .highlight .mf {
+  color: #5fd3d3 !important;
+}
+
+.highlight .go {
+  color: #939393 !important;
+}
+
+article.pytorch-article .class em.property, a:link, a:visited, a:hover {
+  color: var(--bright-orange) !important;
+}
+
+article.pytorch-article .class dt {
+    border-top-color: var(--bright-orange) !important;
+}
+
+article.pytorch-article .class .method dt,
+article.pytorch-article .class .staticmethod dt,
+article.pytorch-article .function dt,
+article.pytorch-article .class dt,
+article.pytorch-article .attribute dt,
+article.pytorch-article .class .attribute dt
+{
+  border-left-color: var(--bright-orange) !important;
+}
+
+.header-holder .main-menu ul li.active:after, .pytorch-left-menu li.toctree-l1.current>a:before, .pytorch-right-menu li.toctree-l1.current>a:before {
+  color: var(--bright-orange) !important;
+}
+
+.pytorch-left-menu {
+  background: var(--light-bg-color) !important;
+}

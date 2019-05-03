@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dark PyTorch Docs",
+  "version": "0.1.0",
+  "description": "Dark Theme for PyTorch Docs",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://pytorch.org/docs/*"]
+  }]
+
+}
