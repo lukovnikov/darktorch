@@ -11,6 +11,7 @@
 body {
   background: var(--bg-color) !important;
   color: var(--txt-color) !important;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 
 #header-holder {
@@ -195,4 +196,28 @@ article.pytorch-article .class .attribute dt
 
 .pytorch-left-menu {
   background: var(--light-bg-color) !important;
+}
+
+.pytorch-left-menu a:link, .pytorch-left-menu a:visited, .pytorch-left-menu a:hover, .pytorch-right-menu a:link, .pytorch-right-menu a:visited, .pytorch-right-menu a:hover {
+  color: #ccc !important;
+}
+
+.pytorch-right-menu .pytorch-side-scroll>ul>li>a.reference.internal {
+  color: #f3f3f3 !important;
+}
+
+.pytorch-left-menu li.toctree-l1.current>a, .pytorch-right-menu li.toctree-l1.current>a {
+  color: var(--bright-orange) !important;
+}
+
+article.pytorch-article .section :not(dt)>code:hover {
+  background:  #ccc !important;
+}
+
+article.pytorch-article .section :not(dt)>code:hover span.pre {
+  color: black !important;
+}
+
+a.has-code span.pre {
+  background: none !important;
 }
